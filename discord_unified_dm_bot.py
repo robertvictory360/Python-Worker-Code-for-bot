@@ -1,4 +1,4 @@
-# discord_unified_dm_bot.py
+# discord_unified_dm_bot.py (CONFIRMED CORRECT)
 import os
 import asyncio
 import random
@@ -8,7 +8,7 @@ import pymysql.cursors
 import discord
 from discord.ext import tasks, commands
 from dotenv import load_dotenv
-from db_config import get_db_connection, get_config 
+from db_config import get_db_connection, get_config # <-- This line is correct
 
 # Load .env variables (These will be set as ENVIRONMENT VARIABLES in Render)
 load_dotenv()
